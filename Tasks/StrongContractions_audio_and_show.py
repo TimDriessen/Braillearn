@@ -6,7 +6,7 @@ randomizeOrder = True      # Whether to ask questions in a random order or as th
 
 feedbackPerLetter = False  # Whether to provide feedback for every letter or for every question
 readEveryLetter = True     # Whether to read each single letter out loud
-contractions = False       # whether this task tests contractions
+contractions = True       # whether this task tests contractions
 
 #Quiz content
 quiz = ['and', 'for', 'of', 'the', 'with']
