@@ -5,14 +5,11 @@ repeatImmediately = True  # Whether to repeat immediately or when all other ques
 randomizeOrder = False      # Whether to ask questions in a random order or as they are given
 
 feedbackPerLetter = False  # Whether to provide feedback for every letter or for every question
-readEveryLetter = False    # Whether to read each single letter out loud
+readEveryLetter = False     # Whether to read each single letter out loud
 contractions = False       # whether this task tests contractions
+
 #Quiz content
-quiz = ['a', 'b', 'c']
-
-
-
-
+quiz = ['capital symbol', 'comma', 'apostrophe', 'colon']
 
 # Sanity checks to ensure way of questioning makes sense
 # ========================================================

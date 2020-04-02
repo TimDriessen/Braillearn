@@ -8,7 +8,7 @@ feedbackPerLetter = False  # Whether to provide feedback for every letter or for
 readEveryLetter = False    # Whether to read each single letter out loud
 contractions = False       # whether this task tests contractions
 #Quiz content
-quiz = ['a', 'b', 'c']
+quiz = ['i', 'j', 'k', 'l', 'm', 'n', 'o', 'p']
 
 
 

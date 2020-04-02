@@ -1,5 +1,5 @@
 #Quiz options
-quizMode = 1               # Mode of this quiz: can be 1,2,3 or 4. Where 3 is word spoken and displayed
+quizMode = 2               # Mode of this quiz: can be 1,2,3 or 4. Where 3 is word spoken and displayed
 repeatUntilCorrect = True  # Repeats questions if answered incorrectly
 repeatImmediately = True  # Whether to repeat immediately or when all other questions are asked
 randomizeOrder = False      # Whether to ask questions in a random order or as they are given
@@ -8,7 +8,7 @@ feedbackPerLetter = False  # Whether to provide feedback for every letter or for
 readEveryLetter = False    # Whether to read each single letter out loud
 contractions = False       # whether this task tests contractions
 #Quiz content
-quiz = ['a', 'b', 'c']
+quiz = ['i', 'j', 'k', 'l', 'm', 'n', 'o', 'p']
 
 
 

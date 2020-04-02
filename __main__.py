@@ -22,7 +22,7 @@ def main():
     print('Done initializing GPIO')
     
     g.globalState = 0
-    #runTutorial() # Tutorial of device
+    runTutorial() # Tutorial of device
     
     g.globalState = 1
     runTask('Tasks.Task1') # Run first task
@@ -155,8 +155,12 @@ def runTask(task_file):
                                 if g.lastBinInput == g.T2B[question]:
                                     completed = True
                                     answer = question
-                                    break
+
+                                    a.playAudio('contraction_correct', 0)
+                                    a.waitForAudio()
+
                                     print("Contraction correct!")
+                                    break
 
                             else:
                                 a.playAudio('incorrect_short', 0)
@@ -321,7 +325,6 @@ def runTutorial():
 # Waits for all braille inputs to be pushed down
 #
 def waitForAllBraille():
-    # ToDo: Set all braille input pins in up position
     for pin in range(len(READ_PINS))
         READ_PINS[pin].ChangeDutyCycle(0)
     a.pausedPosition = 0.0 # Reset pause position variable
